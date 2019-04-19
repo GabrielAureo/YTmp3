@@ -1,0 +1,31 @@
+{
+  "name": "ytmp3",
+  "version": "1.0.0",
+  "description": "An application to download songs from Youtube.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielAureo/ytmp3.git"
+  },
+  "author": "Aureo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielAureo/ytmp3/issues"
+  },
+  "homepage": "https://github.com/GabrielAureo/ytmp3#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "downloads-folder": "^1.0.1",
+    "electron": "4.1.4",
+    "ffmpeg": "0.0.4",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
+    "youtube-dl": "^1.13.1"
+  },
+  "devDependencies": {
+    "photon": "^2.0.1"
+  }
+}
